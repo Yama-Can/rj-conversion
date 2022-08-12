@@ -19,6 +19,7 @@ Romaji/Japanese conversion tool
 #include <iostream>
 #include "rj-conversion.h"
 using namespace std;
+using namespace rj_conversion;
 int main(){
   cout << r_to_j("tukaikata");
 }
@@ -34,6 +35,7 @@ int main(){
 #include <iostream>
 #include "rj-conversion.h"
 using namespace std;
+using namespace rj_conversion;
 int main(){
   cout << j_to_r("つかいかた");
 }
