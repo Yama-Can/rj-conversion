@@ -11,3 +11,34 @@ Romaji/Japanese conversion tool
 ```cpp
 #include "rj-conversion.h"
 ```
+## 関数
+### r_to_j()
+これは、ローマ字を日本語のひらがなに変換します。
+例：
+```cpp
+#include <iostream>
+#include "rj-conversion.h"
+using namespace std;
+int main(){
+  cout << r_to_j("tukaikata");
+}
+```
+結果：
+```
+つかいかた
+```
+### j_to_r()
+これは、日本語のひらがなをローマ字に変換します。
+例：
+```cpp
+#include <iostream>
+#include "rj-conversion.h"
+using namespace std;
+int main(){
+  cout << j_to_r("つかいかた");
+}
+```
+結果：
+```
+tukaikata
+```
