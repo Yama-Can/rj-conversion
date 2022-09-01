@@ -1,5 +1,7 @@
-# rj-conversion
-Romaji/Japanese conversion tool
+# rj-conversion Sample
+Romaji/Japanese conversion tool (Sample)
+## サンプルファイル一覧
+[sample.cpp](https://github.com/Yama-Can/rj-conversion/tree/sample/sample.cpp)
 ## 注意
 これはまだ開発段階です。
 現在のところまだバグは見つかっていませんが、使用する際はバグに注意して使用してください。
